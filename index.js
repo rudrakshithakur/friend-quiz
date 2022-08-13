@@ -1,7 +1,7 @@
 var readlineSync = require("readline-sync");
 var chalk = require("chalk");
- // import chalk from 'chalk';
-
+// import readlineSync from 'readline-sync';
+// import chalk from 'chalk';
 
 console.log(chalk.green('-------------------------'));
 var userName = readlineSync.question(chalk.greenBright("  Whats your name? "));
